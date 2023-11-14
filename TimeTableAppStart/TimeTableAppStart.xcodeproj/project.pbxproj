@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2B3D2B2B03C256003EE977 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B3D2A2B03C256003EE977 /* RegistrationView.swift */; };
+		8B2B3D2D2B03C74C003EE977 /* RoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B3D2C2B03C74C003EE977 /* RoleView.swift */; };
+		8B2B3D2F2B03DEC2003EE977 /* RegistrationForProffesor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B3D2E2B03DEC2003EE977 /* RegistrationForProffesor.swift */; };
 		8B43E59D2B0257BC00AB5ACB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B43E59C2B0257BB00AB5ACB /* GoogleService-Info.plist */; };
 		8B43E59F2B0258A900AB5ACB /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43E59E2B0258A900AB5ACB /* LogIn.swift */; };
 		8B43E5A12B025B2B00AB5ACB /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B43E5A02B025B1900AB5ACB /* Ubuntu-Regular.ttf */; };
@@ -45,6 +48,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B2B3D2A2B03C256003EE977 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		8B2B3D2C2B03C74C003EE977 /* RoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleView.swift; sourceTree = "<group>"; };
+		8B2B3D2E2B03DEC2003EE977 /* RegistrationForProffesor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationForProffesor.swift; sourceTree = "<group>"; };
 		8B43E59C2B0257BB00AB5ACB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8B43E59E2B0258A900AB5ACB /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
 		8B43E5A02B025B1900AB5ACB /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				8B43E59E2B0258A900AB5ACB /* LogIn.swift */,
+				8B2B3D2C2B03C74C003EE977 /* RoleView.swift */,
+				8B2B3D2A2B03C256003EE977 /* RegistrationView.swift */,
+				8B2B3D2E2B03DEC2003EE977 /* RegistrationForProffesor.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B61B1B42AFE80AC00A82E9D /* ContentView.swift in Sources */,
+				8B2B3D2F2B03DEC2003EE977 /* RegistrationForProffesor.swift in Sources */,
+				8B2B3D2D2B03C74C003EE977 /* RoleView.swift in Sources */,
 				8B43E59F2B0258A900AB5ACB /* LogIn.swift in Sources */,
 				8B61B1B22AFE80AC00A82E9D /* TimeTableAppStartApp.swift in Sources */,
+				8B2B3D2B2B03C256003EE977 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
