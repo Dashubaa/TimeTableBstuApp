@@ -9,13 +9,13 @@ import SwiftUI
 
 
 struct CheckboxRow: View {
+    
     var role: RoleView.CheckboxRoles
     var isSelected: Bool
     var action: () -> Void
     
     var body: some View {
         HStack(alignment: .center) {
-            
             Image(systemName: isSelected ? "checkmark.circle.fill" : "circle")
                     .resizable()
                     .frame(width: 20, height: 20)
@@ -23,7 +23,6 @@ struct CheckboxRow: View {
                     .onTapGesture {
                         action()
                     }
-
                 Text(role.rawValue)
             }
         
@@ -31,6 +30,8 @@ struct CheckboxRow: View {
 }
 
 struct RoleView: View {
+    @State private var tabState: Visibility = .hidden
+
     enum CheckboxRoles: String, CaseIterable {
         case studentRole = "Студент/ка"
         case professorRole = "Преподаватель"
@@ -74,12 +75,13 @@ struct RoleView: View {
                     }
                 }.offset(y: -15)
             }.padding()
-                .navigationTitle("")
-                .navigationBarBackButtonHidden(true)
                 
-        } detail: {
-            
         }
+    detail: {
+            
+    }.navigationTitle("Hello")
+            .toolbar(tabState, for: .navigationBar)
+            
     }
 }
 

@@ -14,6 +14,9 @@ import SwiftUI
 
 struct LogIn: View {
     @State private var viewModel = LogInEmailModel()
+    
+    @State private var tabState: Visibility = .hidden
+    
     var body: some View {
         NavigationSplitView{
             VStack{
@@ -36,12 +39,7 @@ struct LogIn: View {
                     .background(Color("lightGrayLogIn"))
                     .clipShape(.rect(cornerRadius: 10))
                     .offset(y: -87)
-                
-//                Button{
-//                    Task{
-//                        // Logic
-//                    }
-//                }label: {
+
                 NavigationLink(destination: RegistrationView()){
                     Text("Войти")
                         .font(.custom("Ubuntu-Bold", size: 15))
@@ -62,11 +60,12 @@ struct LogIn: View {
                     
                 }.offset(y: -15)
             }.padding()
-                .navigationTitle("")
-                .navigationBarBackButtonHidden(true)
+                
         } detail: {
             
-        }
+        }.navigationTitle("Hello")
+            .toolbar(tabState, for: .navigationBar)
+
     }
 }
 
