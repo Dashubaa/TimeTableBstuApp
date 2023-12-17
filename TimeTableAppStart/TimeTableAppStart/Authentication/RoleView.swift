@@ -31,14 +31,13 @@ struct CheckboxRow: View {
 
 struct RoleView: View {
     @State private var tabState: Visibility = .hidden
-
     enum CheckboxRoles: String, CaseIterable {
         case studentRole = "Студент/ка"
         case professorRole = "Преподаватель"
     }
     // value of ROLE
     @State private var selectedRole: CheckboxRoles? = .studentRole
-    
+
     var body: some View {
         NavigationSplitView{
             VStack {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B28E07D2B15F2C7003DB0D3 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28E07C2B15F2C7003DB0D3 /* FirebaseManager.swift */; };
 		8B2B3D2B2B03C256003EE977 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B3D2A2B03C256003EE977 /* RegistrationView.swift */; };
 		8B2B3D2D2B03C74C003EE977 /* RoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B3D2C2B03C74C003EE977 /* RoleView.swift */; };
 		8B2B3D2F2B03DEC2003EE977 /* RegistrationForProffesor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B3D2E2B03DEC2003EE977 /* RegistrationForProffesor.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B28E07C2B15F2C7003DB0D3 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		8B2B3D2A2B03C256003EE977 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		8B2B3D2C2B03C74C003EE977 /* RoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleView.swift; sourceTree = "<group>"; };
 		8B2B3D2E2B03DEC2003EE977 /* RegistrationForProffesor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationForProffesor.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B28E07B2B15F2AA003DB0D3 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8B28E07C2B15F2C7003DB0D3 /* FirebaseManager.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		8B43E59B2B02547400AB5ACB /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +150,7 @@
 		8B61B1B02AFE80AC00A82E9D /* TimeTableAppStart */ = {
 			isa = PBXGroup;
 			children = (
+				8B28E07B2B15F2AA003DB0D3 /* Firebase */,
 				8B43E5A32B025C4A00AB5ACB /* Fonts */,
 				8B43E59B2B02547400AB5ACB /* Authentication */,
 				8B61B1B12AFE80AC00A82E9D /* TimeTableAppStartApp.swift */,
@@ -267,6 +278,7 @@
 			files = (
 				8B61B1B42AFE80AC00A82E9D /* ContentView.swift in Sources */,
 				8B2B3D2F2B03DEC2003EE977 /* RegistrationForProffesor.swift in Sources */,
+				8B28E07D2B15F2C7003DB0D3 /* FirebaseManager.swift in Sources */,
 				8B2B3D2D2B03C74C003EE977 /* RoleView.swift in Sources */,
 				8B43E59F2B0258A900AB5ACB /* LogIn.swift in Sources */,
 				8B61B1B22AFE80AC00A82E9D /* TimeTableAppStartApp.swift in Sources */,
